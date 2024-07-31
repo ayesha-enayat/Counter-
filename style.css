@@ -60,3 +60,32 @@ button#Increment:hover{
     background-color:green ;
     color:#fff;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .card-body {
+        width:50%;
+        padding: 20px;
+    }
+
+    .countlabel {
+        font-size: 50px; /* Smaller font size for labels */
+    }
+
+    .card-btn button {
+        padding: 10px 25px; /* Adjust button padding */
+        font-size: 14px; /* Smaller font size for buttons */
+        margin: 15px 5px; /* Adjust button margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .countlabel {
+        font-size: 40px; /* Even smaller font size for labels */
+    }
+
+    .card-btn button {
+        padding: 8px 20px; /* Further adjust button padding */
+        font-size: 13px; /* Even smaller font size for buttons */
+    }
+}
